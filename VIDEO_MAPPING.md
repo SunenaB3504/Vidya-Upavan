@@ -53,18 +53,18 @@ VIDEO_CODE : https://youtu.be/VIDEO_ID
 - S2 GUIDE : 📖 Reference Guide (Not a video - Opens interactive reference guide with 7 vocabulary themes & 100+ words)
 
 ### Marathi
-- M2-01 : 
-- M2-02 : 
-- M2-03 : 
-- M2-04 : 
-- M2-05 : 
-- M2-06 : 
-- M2-07 : 
+- M2-01 : https://youtu.be/JlwJnlsj_N4
+- M2-02 : https://youtu.be/4rNBDhPDxNk
+- M2-03 : https://youtu.be/J72bter3_zI
+- M2-04 : https://youtu.be/NzgloQlcmvs
+- M2-05 : https://youtu.be/SrdJzPspNis
+- M2-06 : https://youtu.be/GalJxuqrCcY
+- M2-07 : https://youtu.be/fo0_9mGwm-I
 
 ### Bridge
-- B2-01 : 
-- B2-02 : 
-- B2-03 : 
+- B2-01 : https://youtu.be/bK7m5mBr5EU
+- B2-02 : https://youtu.be/SDVyzAc5He4
+- B2-03 : https://youtu.be/gdGWb-IZRgE
 
 ---
 
