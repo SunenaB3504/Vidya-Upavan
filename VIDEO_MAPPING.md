@@ -26,29 +26,29 @@ VIDEO_CODE : https://youtu.be/VIDEO_ID
 - S1 GUIDE : 📖 Reference Guide (Not a video - Opens interactive reference guide with tables & examples) 
 
 ### Marathi
-- M1-01 : 
-- M1-02 : 
-- M1-03 : 
-- M1-04 : 
-- M1-05 : 
+- M1-01 : https://youtu.be/8Vi5SMUP-fA
+- M1-02 : https://youtu.be/p09bb8uiUQ0
+- M1-03 : https://youtu.be/jy_HkE_udw8
+- M1-04 : https://youtu.be/P7dfcyhsppE
+- M1-05 : https://youtu.be/_s7llDUNCWE
 
 ### Bridge
-- B1-01 : 
-- B1-02 : 
+- B1-01 : https://youtu.be/y98bDJ__p3g
+- B1-02 : https://youtu.be/oDp07V1lkFE
 
 ---
 
 ## PHASE 2 — Words & Vocabulary (18 videos)
 
 ### Sanskrit
-- S2-01 : 
-- S2-02 : 
-- S2-03 : 
-- S2-03B : 
-- S2-04 : 
-- S2-05 : 
-- S2-06 : 
-- S2-07 : 
+- S2-01 : https://youtu.be/8XlorgUVbeU
+- S2-02 : https://youtu.be/AnaVt79U2u0
+- S2-03 : https://youtu.be/DpFPPv_WGxI
+- S2-03B : https://youtu.be/kG4w4Dx03ek
+- S2-04 : https://youtu.be/KBGCzDP9X-4
+- S2-05 : https://youtu.be/gzzqjsodAfo
+- S2-06 : https://youtu.be/xlSYtgS7u4s
+- S2-07 : https://youtu.be/frKcuQ-y8ro
 
 ### Marathi
 - M2-01 : 
