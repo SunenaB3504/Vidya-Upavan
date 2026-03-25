@@ -98,7 +98,7 @@ const S1_QUIZ = {
     {
       id: 's1-q11',
       type: 'fill-blank',
-      question: 'The Devanagari vowel "नमस्ते" can be transliterated as __________ in English.',
+      question: 'The common greeting "नमस्ते" can be transliterated as __________ in English.',
       correctAnswer: ['namaste', 'namaskar', 'namsakar'],
       explanation: 'नमस्ते (Namaste) is a greeting meaning "I bow to you" or showing respect.'
     },
@@ -241,10 +241,10 @@ const S1_QUIZ = {
     {
       id: 's1-q26',
       type: 'arrange',
-      question: 'Arrange in the correct order of letters shown in the videos:',
+      question: 'Arrange in the correct order of letters:',
       items: ['ज', 'क', 'त'],
-      correctAnswer: ['क', 'त', 'ज'],
-      explanation: 'का (ka) comes before त (ta) and ज (ja) in Sanskrit consonant order.'
+      correctAnswer: ['क', 'ज', 'त'],
+      explanation: 'क (Velar) comes first, then ज (Palatal), then त (Dental) in Sanskrit alphabetical order.'
     },
 
     // Translation (4 questions)
@@ -422,9 +422,9 @@ const S2_QUIZ = {
     {
       id: 's2-q17',
       type: 'transliteration',
-      question: 'Write the transliteration of: "पानी"',
-      correctAnswer: ['pani', 'paan'],
-      explanation: 'पानी (pani) means "water" - spelled with "p-a-n-i".'
+      question: 'Write the transliterated form of: "पानी"',
+      correctAnswer: ['pani', 'paani'],
+      explanation: 'पानी (pani/paani) means "water" in Sanskrit.'
     },
     {
       id: 's2-q18',
@@ -872,9 +872,9 @@ const M2_QUIZ = {
       id: 'm2-q5',
       type: 'mcq',
       question: 'The Marathi word for "water" is:',
-      options: ['पानी', 'चाय', 'दूध', 'रस'],
+      options: ['पाणी', 'चाय', 'दूध', 'रस'],
       correctAnswer: 0,
-      explanation: 'पानी (pani) means "water" in Marathi (also used in Sanskrit).'
+      explanation: 'पाणी (pani) means "water" in Marathi. Note the retroflex "ण".'
     },
 
     // True/False (5)
@@ -905,10 +905,10 @@ const M2_QUIZ = {
     {
       id: 'm2-q9',
       type: 'true-false',
-      question: 'The Marathi word "नीला" refers to the color blue.',
+      question: 'The Marathi word "निळा" refers to the color blue.',
       options: ['True', 'False'],
       correctAnswer: 0,
-      explanation: 'True! नीला (neela) or नारंगी represents shades - नीला means "blue".'
+      explanation: 'True! निळा (nila) means "blue". नारंगी (narangi) means "orange".'
     },
     {
       id: 'm2-q10',
@@ -947,9 +947,9 @@ const M2_QUIZ = {
       id: 'm2-q14',
       type: 'mcq',
       question: 'Which of these are colors in Marathi?',
-      options: ['लाल, नीला, हरा', 'घर, शाळा, दफ्तर', 'आई, बाबा, भाऊ', 'सफरचंद, केळी, आंबा'],
+      options: ['लाल, निळा, हिरवा', 'घर, शाळा, दफ्तर', 'आई, बाबा, भाऊ', 'सफरचंद, केळी, आंबा'],
       correctAnswer: 0,
-      explanation: 'Colors in Marathi include लाल (red), नीला (blue), and हरा (green).'
+      explanation: 'Colors in Marathi include लाल (red), निळा (blue), and हिरवा (green).'
     },
     {
       id: 'm2-q15',
@@ -1042,15 +1042,15 @@ const M2_QUIZ = {
       question: 'Match colors to their Marathi names:',
       pairs: [
         { left: 'Red', right: 'लाल' },
-        { left: 'Blue', right: 'नीला' },
-        { left: 'Green', right: 'हरा' }
+        { left: 'Blue', right: 'निळा' },
+        { left: 'Green', right: 'हिरवा' }
       ],
       correctAnswer: {
         '0': '0',
         '1': '1',
         '2': '2'
       },
-      explanation: 'Basic Marathi color vocabulary.'
+      explanation: 'Marathi colors: लाल (Red), निळा (Blue), हिरवा (Green).'
     },
 
     // Arrange (2)
