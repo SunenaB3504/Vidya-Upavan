@@ -1299,8 +1299,8 @@ footer {
   document.getElementById('quizStartBtn').addEventListener('click', () => startQuiz(S1_QUIZ));
   document.getElementById('quizCloseBtn').addEventListener('click', closeQuiz);
   document.getElementById('exitBtn').addEventListener('click', closeQuiz);
-  document.getElementById('quizPrevBtn').addEventListener('click', () => { if (currentQuiz && currentQuiz.prevQuestion()) currentQuiz.render('quizQuestionArea'); });
-  document.getElementById('quizNextBtn').addEventListener('click', () => { if (currentQuiz && currentQuiz.nextQuestion()) currentQuiz.render('quizQuestionArea'); });
+  document.getElementById('quizPrevBtn').addEventListener('click', () => { if (currentQuiz && currentQuiz.prevQuestion()) currentQuiz.render('quizQuestionArea', updateNavButtons); });
+  document.getElementById('quizNextBtn').addEventListener('click', () => { if (currentQuiz && currentQuiz.nextQuestion()) currentQuiz.render('quizQuestionArea', updateNavButtons); });
   document.getElementById('quizSubmitBtn').addEventListener('click', submitAnswer);
   document.getElementById('retakeBtn').addEventListener('click', () => { currentQuiz.resetQuiz(); startQuiz(S1_QUIZ); });
 

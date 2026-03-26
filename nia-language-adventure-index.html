@@ -1292,8 +1292,8 @@ function updateStats() {
   document.getElementById('statM').textContent = VIDEOS.filter(v=>v.track==='M'&&completed.includes(v.id)).length;
   document.getElementById('statB').textContent = VIDEOS.filter(v=>v.track==='B'&&completed.includes(v.id)).length;
 
-  // Phase progress
-  [[1,13,'p1'],[2,18,'p2'],[3,14,'p3'],[4,13,'p4']].forEach(([p,tot,id])=>{
+  // Phase progress (Totals updated based on actual VIDEOS counts: P1:22, P2:22, P3:18, P4:17)
+  [[1,22,'p1'],[2,22,'p2'],[3,18,'p3'],[4,17,'p4']].forEach(([p,tot,id])=>{
     const pdone = VIDEOS.filter(v=>v.phase===p&&completed.includes(v.id)).length;
     const el = document.getElementById(id+'fill');
     const tx = document.getElementById(id+'txt');

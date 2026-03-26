@@ -79,25 +79,25 @@ VIDEO_CODE : https://youtu.be/VIDEO_ID
 - S3-01 : (Coming Soon - Sanskrit Grammar: Cases)
 - S3-02 : (Coming Soon - Sanskrit Grammar: Verbs & Tenses)
 - S3-03 : (Coming Soon - Sanskrit: Simple Sentences & Questions)
-- S3-04 : (Coming Soon - Sanskrit: Shlokas Decoded Part 1)
-- S3-05 : (Coming Soon - Sanskrit: Shlokas Decoded Part 2 & Subhashitas)
-- S3-06 : (Coming Soon - Sanskrit: Sandhi Rules)
+- S3-04 : https://youtu.be/ypbSRmkHUJY (Coming Soon - Sanskrit: Shlokas Decoded Part 1)
+- S3-05 : https://youtu.be/UFKbBRbAJrY (Coming Soon - Sanskrit: Shlokas Decoded Part 2 & Subhashitas)
+- S3-06 : https://youtu.be/KPUXOHlf1bQ (Coming Soon - Sanskrit: Sandhi Rules)
 - S3-GUIDE : 📖 Reference Guide (Not a video - Opens interactive guide with grammar rules, sentence patterns, and examples)
 - S3-QUIZ : 🧩 Interactive Quiz (30 questions covering Phase 3 content - Grammar, Cases, Verbs, Shlokas, Sandhi, Questions)
 
 ### Marathi
-- M3-01 : (Coming Soon - Marathi Grammar: Sentence Structure)
-- M3-02 : (Coming Soon - Marathi Grammar: Verbs & Tenses)
-- M3-03 : (Coming Soon - Marathi: Questions & Conversations)
-- M3-04 : (Coming Soon - Marathi: Expressing Feelings & Opinions)
-- M3-05 : (Coming Soon - Marathi: Negation & Commands)
+- M3-01 : https://youtu.be/y9H5P_6G6Hc (Coming Soon - Marathi Grammar: Sentence Structure)
+- M3-02 : https://youtu.be/67wdikKAMqo (Coming Soon - Marathi Grammar: Verbs & Tenses)
+- M3-03 : https://youtu.be/Oyvzw_TfzXQ (Coming Soon - Marathi: Questions & Conversations)
+- M3-04 : https://youtu.be/z0qliwUmzN0 (Coming Soon - Marathi: Expressing Feelings & Opinions)
+- M3-05 : https://youtu.be/FUBqfTEHOA0 (Coming Soon - Marathi: Negation & Commands)
 - M3-06 : (Coming Soon - Marathi: A Day in Nia's Life - Full Sentences)
 - M3-GUIDE : 📖 Reference Guide (Not a video - Opens interactive guide with grammar rules, verb forms, and examples)
 - M3-QUIZ : 🧩 Interactive Quiz (30 questions covering Phase 3 content - Grammar, Verbs, Tenses, Conversations, Sentences)
 
 ### Bridge
-- B3-01 : (Coming Soon - A Day in Both Languages: Side by Side)
-- B3-02 : (Coming Soon - Grammar Detective: Shared Structures) 
+- B3-01 : https://youtu.be/wSDozgesdEY (Coming Soon - A Day in Both Languages: Side by Side)
+- B3-02 : https://youtu.be/gNHNXDMDI-I (Coming Soon - Grammar Detective: Shared Structures) 
 
 ---
 

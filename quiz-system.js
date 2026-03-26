@@ -11,6 +11,7 @@ class QuizSystem {
     this.userAnswers = [];
     this.scores = [];
     this.isCompleted = false;
+    this.shuffledMatches = {};
     this.injectStyles();
     this.loadFromStorage();
   }
@@ -253,6 +254,7 @@ class QuizSystem {
     this.userAnswers = [];
     this.scores = [];
     this.isCompleted = false;
+    this.shuffledMatches = {};
     localStorage.removeItem(`quiz_${this.quizId}`);
   }
 
@@ -283,6 +285,18 @@ class QuizSystem {
       });
       html += '</div>';
     } else if (type === 'matching') {
+      // Shuffled options for this question
+      if (!this.shuffledMatches[this.currentQuestionIndex]) {
+        const options = question.pairs.map((p, pIdx) => ({ text: p.right, value: pIdx }));
+        // Fisher-Yates shuffle
+        for (let i = options.length - 1; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1));
+          [options[i], options[j]] = [options[j], options[i]];
+        }
+        this.shuffledMatches[this.currentQuestionIndex] = options;
+      }
+      const options = this.shuffledMatches[this.currentQuestionIndex];
+
       html += '<div class="quiz-matching-area">';
       question.pairs.forEach((pair, idx) => {
         const currentMatch = (userAnswer && userAnswer[idx] !== undefined) ? userAnswer[idx] : '';
@@ -293,8 +307,8 @@ class QuizSystem {
             <div class="matching-right">
               <select onchange="currentQuiz.handleUpdate('match', {pairIdx: ${idx}, value: this.value})">
                 <option value="" ${currentMatch === '' ? 'selected' : ''}>Select match...</option>
-                ${question.pairs.map((p, pIdx) => `
-                  <option value="${pIdx}" ${currentMatch === pIdx ? 'selected' : ''}>${p.right}</option>
+                ${options.map(opt => `
+                  <option value="${opt.value}" ${currentMatch === opt.value ? 'selected' : ''}>${opt.text}</option>
                 `).join('')}
               </select>
             </div>
@@ -350,30 +364,26 @@ class QuizSystem {
         this.userAnswers[this.currentQuestionIndex][data.pairIdx] = parseInt(data.value);
       }
     } else if (type === 'arrange') {
-      if (!this.userAnswers[this.currentQuestionIndex]) {
-        this.userAnswers[this.currentQuestionIndex] = [];
-      }
-      const order = this.userAnswers[this.currentQuestionIndex];
-      const items = this.getCurrentQuestion().items;
+      const question = this.getCurrentQuestion();
+      const items = question.items;
       
-      // Remove item if it already exists in the order
-      const existingIdx = order.indexOf(data.item);
-      if (existingIdx !== -1) order.splice(existingIdx, 1);
+      if (!this.userAnswers[this.currentQuestionIndex] || !Array.isArray(this.userAnswers[this.currentQuestionIndex])) {
+        this.userAnswers[this.currentQuestionIndex] = new Array(items.length).fill(null);
+      }
+      
+      const order = this.userAnswers[this.currentQuestionIndex];
+      
+      // Remove item from its current position if any
+      const currentPos = order.indexOf(data.item);
+      if (currentPos !== -1) order[currentPos] = null;
       
       if (data.pos !== "") {
-        const pos = parseInt(data.pos) - 1;
-        // If something else is at that position, remove it or shift? 
-        // For simplicity, just swap or replace.
-        const atPos = order[pos];
-        if (atPos) {
-          // Find where it should go... actually just let the user pick.
-          order[pos] = data.item;
-        } else {
-          order[pos] = data.item;
-        }
+        const targetPos = parseInt(data.pos) - 1;
+        // If someone else is at target, they lose their spot (user must re-assign them)
+        order[targetPos] = data.item;
       }
-      // Cleanup undefined holes
-      this.userAnswers[this.currentQuestionIndex] = order.filter(item => item !== undefined);
+      
+      this.userAnswers[this.currentQuestionIndex] = order;
     }
     this.saveToStorage();
     
