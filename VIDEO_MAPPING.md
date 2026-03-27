@@ -76,9 +76,9 @@ VIDEO_CODE : https://youtu.be/VIDEO_ID
 ## PHASE 3 — Sentences & Grammar (14 videos)
 
 ### Sanskrit
-- S3-01 : (Coming Soon - Sanskrit Grammar: Cases)
-- S3-02 : (Coming Soon - Sanskrit Grammar: Verbs & Tenses)
-- S3-03 : (Coming Soon - Sanskrit: Simple Sentences & Questions)
+- S3-01 : https://youtu.be/sYS-X70LEsQ (Coming Soon - Sanskrit Grammar: Cases)
+- S3-02 : https://youtu.be/bVuXcwH1xSw (Coming Soon - Sanskrit Grammar: Verbs & Tenses)
+- S3-03 : https://youtu.be/_6u5UDISA_4 (Coming Soon - Sanskrit: Simple Sentences & Questions)
 - S3-04 : https://youtu.be/ypbSRmkHUJY (Coming Soon - Sanskrit: Shlokas Decoded Part 1)
 - S3-05 : https://youtu.be/UFKbBRbAJrY (Coming Soon - Sanskrit: Shlokas Decoded Part 2 & Subhashitas)
 - S3-06 : https://youtu.be/KPUXOHlf1bQ (Coming Soon - Sanskrit: Sandhi Rules)
@@ -90,8 +90,8 @@ VIDEO_CODE : https://youtu.be/VIDEO_ID
 - M3-02 : https://youtu.be/67wdikKAMqo (Coming Soon - Marathi Grammar: Verbs & Tenses)
 - M3-03 : https://youtu.be/Oyvzw_TfzXQ (Coming Soon - Marathi: Questions & Conversations)
 - M3-04 : https://youtu.be/z0qliwUmzN0 (Coming Soon - Marathi: Expressing Feelings & Opinions)
-- M3-05 : https://youtu.be/FUBqfTEHOA0 (Coming Soon - Marathi: Negation & Commands)
-- M3-06 : (Coming Soon - Marathi: A Day in Nia's Life - Full Sentences)
+- M3-05 : https://youtu.be/cuFsdZH9AwU (Coming Soon - Marathi: Negation & Commands)
+- M3-06 : https://youtu.be/FUBqfTEHOA0 (Coming Soon - Marathi: A Day in Nia's Life - Full Sentences)
 - M3-GUIDE : 📖 Reference Guide (Not a video - Opens interactive guide with grammar rules, verb forms, and examples)
 - M3-QUIZ : 🧩 Interactive Quiz (30 questions covering Phase 3 content - Grammar, Verbs, Tenses, Conversations, Sentences)
 
@@ -104,11 +104,11 @@ VIDEO_CODE : https://youtu.be/VIDEO_ID
 ## PHASE 4 — Stories & Culture (13 videos)
 
 ### Sanskrit
-- S4-01 : (Coming Soon - Sanskrit Story: Panchatantra - Crow & Pitcher)
-- S4-02 : (Coming Soon - Sanskrit Story: Panchatantra - Monkey & Crocodile)
-- S4-03 : (Coming Soon - Sanskrit Story: Panchatantra - Lion & Hare)
-- S4-04 : (Coming Soon - Sanskrit: Subhashitas - Wisdom in Two Lines)
-- S4-05 : (Coming Soon - Sanskrit: Language in Ramayana & Mahabharata)
+- S4-01 : https://youtu.be/Te6PCdO98f4 (Coming Soon - Sanskrit Story: Panchatantra - Crow & Pitcher)
+- S4-02 : https://youtu.be/FVAv11aEPc4 (Coming Soon - Sanskrit Story: Panchatantra - Monkey & Crocodile)
+- S4-03 : https://youtu.be/EdeOW1pRlwA (Coming Soon - Sanskrit Story: Panchatantra - Lion & Hare)
+- S4-04 : https://youtu.be/aDCDCfz2Zco(Coming Soon - Sanskrit: Subhashitas - Wisdom in Two Lines)
+- S4-05 : https://youtu.be/rFqCa5VBNFw (Coming Soon - Sanskrit: Language in Ramayana & Mahabharata)
 - S4-GUIDE : 📖 Reference Guide (Not a video - Opens interactive guide with stories, shlokas, cultural context, and wisdom)
 - S4-QUIZ : 🧩 Interactive Quiz (30 questions covering Phase 4 content - Stories, Panchatantra, Shlokas, Mythology, Culture)
 
