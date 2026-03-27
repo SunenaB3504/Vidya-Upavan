@@ -774,6 +774,111 @@ main {
   border-radius: 6px;
   display: flex; align-items: center; gap: 3px;
 }
+
+/* === COMMUNITY FOOTER BANNER === */
+.community-banner {
+  position: relative;
+  background: linear-gradient(135deg, #1E1040 0%, #4F1DA3 100%);
+  padding: 20px 24px;
+  text-align: center;
+  margin-top: 40px;
+  border-top: 3px solid var(--gold);
+}
+
+.community-banner h3 {
+  font-family: 'Baloo 2', cursive;
+  color: #fff;
+  font-size: 1.1rem;
+  margin-bottom: 6px;
+}
+
+.community-banner p {
+  color: rgba(255,255,255,0.7);
+  font-size: 0.85rem;
+  margin-bottom: 14px;
+}
+
+.banner-actions {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 14px;
+}
+
+.btn-subscribe {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #FF0000;
+  color: #fff;
+  padding: 10px 22px;
+  border-radius: 30px;
+  font-family: 'Baloo 2', cursive;
+  font-size: 0.95rem;
+  font-weight: 700;
+  text-decoration: none;
+  transition: all 0.3s;
+  box-shadow: 0 4px 14px rgba(255,0,0,0.35);
+}
+
+.btn-subscribe:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(255,0,0,0.45);
+}
+
+.btn-feedback {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--gold);
+  color: var(--dark);
+  padding: 10px 22px;
+  border-radius: 30px;
+  font-family: 'Baloo 2', cursive;
+  font-size: 0.95rem;
+  font-weight: 700;
+  text-decoration: none;
+  transition: all 0.3s;
+  box-shadow: 0 4px 14px rgba(255,184,48,0.35);
+}
+
+.btn-feedback:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(255,184,48,0.45);
+}
+
+.btn-dakshina {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #ff813f;
+  color: #fff;
+  padding: 10px 22px;
+  border-radius: 30px;
+  font-family: 'Baloo 2', cursive;
+  font-size: 0.95rem;
+  font-weight: 700;
+  text-decoration: none;
+  transition: all 0.3s;
+  box-shadow: 0 4px 14px rgba(255,129,63,0.35);
+}
+
+.btn-dakshina:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(255,129,63,0.45);
+}
+
+.privacy-note {
+  font-size: 0.72rem;
+  color: rgba(255,255,255,0.45);
+  margin-top: 10px;
+}
+
+.privacy-note a {
+  color: var(--teal);
+  text-decoration: none;
+}
 </style>
 </head>
 <body>
@@ -1447,5 +1552,27 @@ function confetti() {
 // =============================================
 renderAll();
 </script>
+<!-- ===== COMMUNITY FOOTER BANNER ===== -->
+<div class="community-banner">
+  <h3>🌟 Enjoying Nia's Language Adventure?</h3>
+  <p>Subscribe to <strong>Vidya Vatika</strong> on YouTube for new Sanskrit &amp; Marathi lessons every week!</p>
+  <div class="banner-actions">
+    <a href="https://www.youtube.com/@VidyaVatika?sub_confirmation=1" target="_blank" rel="noopener noreferrer" class="btn-subscribe">
+      ▶ Subscribe on YouTube
+    </a>
+    <a href="https://forms.gle/YOUR_GOOGLE_FORM_ID" target="_blank" rel="noopener noreferrer" class="btn-feedback">
+      ⭐ Rate &amp; Give Feedback
+    </a>
+    <a href="https://buymeacoffee.com/vidyavatika" target="_blank" rel="noopener noreferrer" class="btn-dakshina">
+      🙏 Offer Dakshina
+    </a>
+  </div>
+  <div class="privacy-note">
+    🔒 This app collects <strong>zero personal data</strong>. All progress is saved locally on your device only (localStorage). No cookies. No tracking. DPDP Act 2023 compliant.<br>
+    Content is 100% original. Not affiliated with or endorsed by NCERT. &nbsp;|&nbsp;
+    <a href="https://www.youtube.com/@VidyaVatika" target="_blank" rel="noopener noreferrer">Vidya Vatika © 2025</a>
+  </div>
+</div>
+
 </body>
 </html>
