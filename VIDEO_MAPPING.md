@@ -113,18 +113,18 @@ VIDEO_CODE : https://youtu.be/VIDEO_ID
 - S4-QUIZ : 🧩 Interactive Quiz (30 questions covering Phase 4 content - Stories, Panchatantra, Shlokas, Mythology, Culture)
 
 ### Marathi
-- M4-01 : (Coming Soon - Marathi Story: Folk Tales from Maharashtra)
-- M4-02 : (Coming Soon - Marathi Story: Sant Tukaram & Dnyaneshwar)
-- M4-03 : (Coming Soon - Marathi: Folk Songs & Lullabies - Lavani & Ovi)
-- M4-04 : (Coming Soon - Marathi: Shivaji Maharaj - Language as Identity)
-- M4-05 : (Coming Soon - Marathi: Nia Reads Aloud - Graduation Read)
+- M4-01 : https://youtu.be/a_5slDQyxnE (Coming Soon - Marathi Story: Folk Tales from Maharashtra)
+- M4-02 : https://youtu.be/DHkqD6mRN9g (Coming Soon - Marathi Story: Sant Tukaram & Dnyaneshwar)
+- M4-03 : https://youtu.be/e6xjcBJ44vg (Coming Soon - Marathi: Folk Songs & Lullabies - Lavani & Ovi)
+- M4-04 : https://youtu.be/rC3-zyGuzeY (Coming Soon - Marathi: Shivaji Maharaj - Language as Identity)
+- M4-05 : https://youtu.be/ji23ehCyn50 (Coming Soon - Marathi: Nia Reads Aloud - Graduation Read)
 - M4-GUIDE : 📖 Reference Guide (Not a video - Opens interactive guide with stories, songs, cultural heritage, and literature)
 - M4-QUIZ : 🧩 Interactive Quiz (30 questions covering Phase 4 content - Stories, Saints, Songs, Culture, Heritage, Literature)
 
 ### Bridge
-- B4-01 : (Coming Soon - Stories Travel! Panchatantra & World Literature)
-- B4-02 : (Coming Soon - Full Series Recap: Everything Nia Knows Now)
-- B4-03 : (Coming Soon - Grand Finale: Nia's Language Graduation! 🎓) 
+- B4-01 : https://youtu.be/G2pi77NNsII (Coming Soon - Stories Travel! Panchatantra & World Literature)
+- B4-02 : https://youtu.be/vbqcuEupn7Q (Coming Soon - Full Series Recap: Everything Nia Knows Now)
+- B4-03 : https://youtu.be/5Y_kghH8INE (Coming Soon - Grand Finale: Nia's Language Graduation! 🎓) 
 
 ---
 
