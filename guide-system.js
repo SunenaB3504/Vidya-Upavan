@@ -3,6 +3,9 @@
  * Centralizes the UI logic for guides and their associated quizzes.
  */
 
+// Global instance of the quiz for the current page
+let currentQuiz = null;
+
 function initGuideQuiz(quizData) {
     // 1. Inject Modal HTML if not present
     if (!document.getElementById('quizModal')) {
@@ -48,7 +51,7 @@ function initGuideQuiz(quizData) {
         document.body.insertAdjacentHTML('beforeend', modalHtml);
     }
 
-    let currentQuiz = null;
+
 
     // 2. Setup Event Listeners
     // Check for start buttons (both ID and class based for flexibility)
