@@ -1,8 +1,8 @@
-// Vidya Vatika — Service Worker
+// Vidya Upavan — Service Worker
 // Caches all core app files for offline use.
 // YouTube videos still require internet (by design).
 
-const CACHE_NAME = 'vidyavatika-v1';
+const CACHE_NAME = 'vidyaupavan-v1';
 const ASSETS_TO_CACHE = [
   '/nia-language-adventure-index.html',
   '/quiz-system.js',

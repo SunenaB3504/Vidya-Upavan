@@ -1,5 +1,5 @@
 /*
- * Vidya Vatika — App Icon Placeholder
+ * Vidya Upavan — App Icon Placeholder
  * Replace this file with your actual 192x192 PNG app icon.
  * See assets/README.md for instructions.
  */

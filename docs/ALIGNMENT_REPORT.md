@@ -1,11 +1,11 @@
 # Nia's Language Adventure — Business Plan Alignment Report
-## App vs. Vidya Vatika Business Plan 2025
+## App vs. Vidya Upavan Business Plan 2025
 
 **Report Date**: March 27, 2026 (Revised)
 **Reviewed By**: AI Code Analysis
 **Documents Compared**:
 - App: `nia-language-adventure-index.html` + supporting files
-- Plan: `docs/Vidya_Vatika_Business_Plan_2025.docx`
+- Plan: `docs/Vidya_Upavan_Business_Plan_2025.docx`
 
 ---
 
@@ -22,7 +22,7 @@ The app is **strongly aligned** with the business plan's core vision and technic
 ### What the Business Plan Requires
 > "A single-file HTML app hosted on GitHub Pages serves as the video navigation and progress tracking companion to the YouTube channel."
 
-The plan specifically names the product **"Vidya Vatika Tracker"** and frames it as a companion to the **Vidya Vatika YouTube channel**.
+The plan specifically names the product **"Vidya Upavan Tracker"** and frames it as a companion to the **Vidya Upavan YouTube channel**.
 
 ### Current App Status
 
@@ -30,11 +30,11 @@ The plan specifically names the product **"Vidya Vatika Tracker"** and frames it
 | :--- | :--- | :--- |
 | Single-file HTML app | Multi-file (1 index + 8 guide files + 2 JS) | ⚠️ PARTIAL |
 | Hosted on GitHub Pages | GitHub repo exists, ready for Pages deployment | ✅ READY |
-| Branded as "Vidya Vatika" | "Nia's Language Adventure" (child-facing) with Vidya Vatika footer | ⚠️ DUAL BRAND |
+| Branded as "Vidya Upavan" | "Nia's Language Adventure" (child-facing) with Vidya Upavan footer | ⚠️ DUAL BRAND |
 | Language scope: Sanskrit, Hindi, Marathi | Sanskrit + Marathi only (no Hindi) | ❌ GAP |
 
 ### Key Decision Required
-The **dual branding** approach is intentional — "Nia's Language Adventure" for the student, "Vidya Vatika" on YouTube. A decision is needed on whether this app should be re-skinned with the Vidya Vatika channel identity, or kept as Nia's companion app.
+The **dual branding** approach is intentional — "Nia's Language Adventure" for the student, "Vidya Upavan" on YouTube. A decision is needed on whether this app should be re-skinned with the Vidya Upavan channel identity, or kept as Nia's companion app.
 
 ---
 
@@ -172,7 +172,7 @@ Based on the current state of WordPress (March 2026) — with Phase 1 & 2 video 
 | L1 | **AdSense ad units in index.html** | 1 hour | Revenue Stream 2 is completely non-functional |
 | L2 | **AdSense NPA configuration** | 30 min | Legal requirement for child audiences (DPDP/COPPA) |
 | L3 | **Replace placeholder form/channel URLs** | 15 min | Subscribe and Feedback buttons have dummy URLs |
-| L4 | **YouTube channel name verification** | 5 min | Confirm `@VidyaVatika` handle is live |
+| L4 | **YouTube channel name verification** | 5 min | Confirm `@vidyaupavan` handle is live |
 | L5 | **GitHub Pages deployment** | 30 min | App not live yet |
 | L6 | **SEO meta tags** | 30 min | No description or social preview metadata |
 
@@ -211,7 +211,7 @@ Based on the current state of WordPress (March 2026) — with Phase 1 & 2 video 
 | Monetisation Readiness | 55/100 | Dakshina added; AdSense still missing |
 | SEO Readiness | 20/100 | No meta tags or structured data |
 | Compliance (DPDP/Copyright/GST) | 70/100 | Privacy notice added; AdSense NPA config awaited |
-| Branding Alignment | 65/100 | Dual brand strategy clarified; Vidya Vatika in footer |
+| Branding Alignment | 65/100 | Dual brand strategy clarified; Vidya Upavan in footer |
 | Expansion Architecture | 85/100 | Easy to scale with new phases |
 | **OVERALL** | **78/100** | Strong foundation; 6 clear launch blockers remain |
 

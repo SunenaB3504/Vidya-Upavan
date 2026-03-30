@@ -1,4 +1,4 @@
-# 💰 AdSense Setup Guide — Vidya Vatika GitHub Pages App
+# 💰 AdSense Setup Guide — Vidya Upavan GitHub Pages App
 
 ## Overview
 Google AdSense will display relevant ads on the GitHub Pages companion app, generating passive income for every page view. At 10K monthly visitors, this adds ₹1,500–4,500/month supplementary to YouTube AdSense.
@@ -56,12 +56,12 @@ Log into AdSense → **Ads** → **By ad unit** → **Create new ad unit** for e
 
 ### Ad Unit 1 — "Below Navigation" (Recommended)
 - **Type**: Display ad (Responsive)
-- **Name**: `vidya-vatika-below-nav`
+- **Name**: `vidya-upavan-below-nav`
 - **Size**: Responsive (auto-adjusts for mobile and desktop)
 
 ### Ad Unit 2 — "Above Footer" (Recommended)
 - **Type**: Display ad (Responsive)
-- **Name**: `vidya-vatika-above-footer`
+- **Name**: `vidya-upavan-above-footer`
 
 ---
 

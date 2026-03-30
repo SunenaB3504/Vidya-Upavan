@@ -1,9 +1,9 @@
-# 📋 Vidya Vatika — Student Feedback Form Template
+# 📋 Vidya Upavan — Student Feedback Form Template
 
 ## How to Create This Form
 1. Go to [forms.google.com](https://forms.google.com)
 2. Click **"+"** to create a new form
-3. Title: **"Vidya Vatika — Share Your Feedback! 🌟"**
+3. Title: **"Vidya Upavan — Share Your Feedback! 🌟"**
 4. Add the description below
 5. Add each question in the order listed
 6. Set Response destination: **New Spreadsheet** (to track all feedback)
@@ -13,10 +13,10 @@
 ---
 
 ## Form Title
-**Vidya Vatika — Share Your Feedback! 🌟**
+**Vidya Upavan — Share Your Feedback! 🌟**
 
 ## Form Description
-*Thank you for learning Sanskrit and Marathi with Vidya Vatika! Your feedback helps us make better lessons for students like you. This form takes only 2 minutes. — Vidya Vatika*
+*Thank you for learning Sanskrit and Marathi with Vidya Upavan! Your feedback helps us make better lessons for students like you. This form takes only 2 minutes. — Vidya Upavan*
 
 ---
 
@@ -24,7 +24,7 @@
 
 ### Q1 — Overall Rating ⭐ (Required)
 **Type**: Multiple Choice (Linear Scale 1–5)
-**Question**: How would you rate your overall experience with Vidya Vatika?
+**Question**: How would you rate your overall experience with Vidya Upavan?
 - 1 — Not helpful
 - 2 — Somewhat helpful
 - 3 — Good
@@ -87,9 +87,9 @@
 
 ---
 
-### Q7 — Would you recommend Vidya Vatika? (Required)
+### Q7 — Would you recommend Vidya Upavan? (Required)
 **Type**: Multiple Choice
-**Question**: Would you recommend Vidya Vatika to other students/parents?
+**Question**: Would you recommend Vidya Upavan to other students/parents?
 - Definitely yes! I already have 🙌
 - Yes, I would recommend it
 - Maybe
@@ -118,7 +118,7 @@
 ---
 
 ## Confirmation Message
-*"Thank you so much for your feedback! 🙏 It means the world to us. Keep learning — every Sanskrit word you master is a connection to 5,000 years of wisdom! — Vidya Vatika Team"*
+*"Thank you so much for your feedback! 🙏 It means the world to us. Keep learning — every Sanskrit word you master is a connection to 5,000 years of wisdom! — Vidya Upavan Team"*
 
 ---
 

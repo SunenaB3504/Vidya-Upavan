@@ -179,8 +179,8 @@ function initGuideQuiz(quizData) {
     async function shareAchievement(quiz) {
         const score = quiz.getTotalScore();
         const shareData = {
-            title: 'I mastered a new phase in Vidya Vatika!',
-            text: `Nia just mastered a new phase in Vidya Vatika! Check out this private Sanskrit & Marathi adventure: ${window.location.href}`,
+            title: 'I mastered a new phase in Vidya Upavan!',
+            text: `Nia just mastered a new phase in Vidya Upavan! Check out this private Sanskrit & Marathi adventure: ${window.location.href}`,
             url: window.location.href
         };
 
