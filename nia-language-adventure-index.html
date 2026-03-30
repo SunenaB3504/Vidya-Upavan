@@ -1085,6 +1085,54 @@ main {
   border: 3px solid var(--gold);
 }
 
+/* === PLATFORM PILLARS (FOOTER) === */
+.pillar-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+  margin-bottom: 40px;
+  text-align: left;
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pillar-card {
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 18px;
+  padding: 24px;
+  transition: all 0.3s;
+}
+
+.pillar-card:hover {
+  transform: translateY(-5px);
+  background: rgba(255,255,255,0.08);
+  border-color: rgba(255,255,255,0.2);
+}
+
+.pillar-card h4 {
+  font-family: 'Baloo 2', cursive;
+  font-size: 1.15rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.pillar-card p {
+  font-size: 0.88rem;
+  line-height: 1.6;
+  color: rgba(255,255,255,0.75);
+  margin: 0;
+}
+
+.pillar-vision { border-top: 4px solid var(--saffron); }
+.pillar-mission { border-top: 4px solid var(--teal); }
+.pillar-principle { border-top: 4px solid var(--purple); }
+
+
 .upi-id {
   background: rgba(255,255,255,0.1);
   border-radius: 8px;
@@ -1856,6 +1904,21 @@ renderAll();
 </script>
 <!-- ===== COMMUNITY FOOTER BANNER (THE GARDENER'S CALL) ===== -->
 <div class="community-banner" id="gardeners-call">
+  <div class="pillar-grid">
+    <div class="pillar-card pillar-vision">
+      <h4 style="color:var(--saffron)">🎓 Our Vision</h4>
+      <p>To be the global 'Garden of Knowledge' for privacy-protected, English-medium Indian language education.</p>
+    </div>
+    <div class="pillar-card pillar-mission">
+      <h4 style="color:var(--teal)">🎯 Our Mission</h4>
+      <p>Providing high-quality Sanskrit, Hindi, and Marathi resources that respect student anonymity—no logins, no tracking, just learning.</p>
+    </div>
+    <div class="pillar-card pillar-principle">
+      <h4 style="color:var(--purple)">⚖️ Guiding Principle</h4>
+      <p>Knowledge is a gift that should never cost a child's privacy. We believe in heritage learning open to all, guarded by integrity, and nourished by community.</p>
+    </div>
+  </div>
+
   <div class="gardener-call-message" style="font-family:'Nunito',sans-serif;font-size:14px;color:rgba(255,255,255,0.9);text-align:center;max-width:850px;margin:0 auto 28px;line-height:1.6;">
     <span style="display:block;font-family:'Baloo 2',cursive;font-size:1.4rem;color:var(--gold);margin-bottom:12px;">🌟 The Gardener's Call</span>
     Vidya Vatika is a 'Garden of Knowledge' kept free and private for every student. Unlike other apps, we never track you, never ask for a login, and never sell your personal information. We rely on our community to keep this garden growing. Whether you Subscribe for updates, Share with a friend, Comment to join the talk, or offer Dakshina (Support)—every action helps keep this adventure safe and free for students everywhere.
