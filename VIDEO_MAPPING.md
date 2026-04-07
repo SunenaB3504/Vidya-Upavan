@@ -1,4 +1,4 @@
-# Nia's Language Adventure — Video Mapping Guide
+# Vidya Upavan — Video Mapping Guide
 
 Copy the YouTube link for each video and update this file. Then share the complete list with your developer.
 

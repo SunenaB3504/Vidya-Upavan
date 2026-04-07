@@ -1,4 +1,4 @@
-# 🌟 Nia's Language Adventure
+# 🌟 Vidya Upavan
 
 A kid-friendly video tracker for learning **Sanskrit & Marathi** — 57 videos across 4 phases, hosted on GitHub Pages with YouTube embedding.
 
@@ -75,4 +75,4 @@ To add a new video, copy any existing entry and change the fields:
 
 ---
 
-Made with ❤️ for Nia's Language Adventure · CBSE Class 5
+Made with ❤️ for Vidya Upavan · CBSE Class 5

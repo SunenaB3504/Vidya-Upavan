@@ -1,5 +1,5 @@
 /**
- * Nia's Language Adventure - Quiz System
+ * Vidya Upavan - Quiz System
  * Handles quiz logic, validation, scoring, and tracking
  */
 

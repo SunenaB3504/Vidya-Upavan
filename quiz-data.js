@@ -1,5 +1,5 @@
 /**
- * Nia's Language Adventure - Quiz Data
+ * Vidya Upavan - Quiz Data
  * Contains all quiz questions for each phase
  */
 

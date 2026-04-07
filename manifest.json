@@ -1,8 +1,8 @@
 {
-  "name": "Nia's Language Adventure — Vidya Upavan",
+  "name": "Vidya Upavan",
   "short_name": "Vidya Upavan",
   "description": "Free English-medium Sanskrit and Marathi lessons for CBSE Class 5 students.",
-  "start_url": "/nia-language-adventure-index.html",
+  "start_url": "nia-language-adventure-index.html",
   "display": "standalone",
   "background_color": "#FFF8F0",
   "theme_color": "#7C3AED",

@@ -4,18 +4,19 @@
 
 const CACHE_NAME = 'vidyaupavan-v1';
 const ASSETS_TO_CACHE = [
-  '/nia-language-adventure-index.html',
-  '/quiz-system.js',
-  '/quiz-data.js',
-  '/s1-guide.html',
-  '/m1-guide.html',
-  '/s2-guide.html',
-  '/m2-guide.html',
-  '/s3-guide.html',
-  '/m3-guide.html',
-  '/s4-guide.html',
-  '/m4-guide.html',
-  '/manifest.json'
+  'index.html',
+  'nia-language-adventure-index.html',
+  'quiz-system.js',
+  'quiz-data.js',
+  's1-guide.html',
+  'm1-guide.html',
+  's2-guide.html',
+  'm2-guide.html',
+  's3-guide.html',
+  'm3-guide.html',
+  's4-guide.html',
+  'm4-guide.html',
+  'manifest.json'
 ];
 
 // Install: cache all core assets
@@ -53,6 +54,6 @@ self.addEventListener('fetch', event => {
         caches.open(CACHE_NAME).then(cache => cache.put(event.request, clone));
         return response;
       });
-    }).catch(() => caches.match('/nia-language-adventure-index.html'))
+    }).catch(() => caches.match('nia-language-adventure-index.html'))
   );
 });

@@ -1,5 +1,5 @@
 /**
- * Nia's Language Adventure - Guide & Quiz System Glue
+ * Vidya Upavan - Guide & Quiz System Glue
  * Centralizes the UI logic for guides and their associated quizzes.
  */
 
